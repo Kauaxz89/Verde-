@@ -1,0 +1,66 @@
+ Tenho uma pequena horta e cultivo diferentes tipos de plantas em casa, como morangos, pimenteiras, figueiras, temperos e plantas ornamentais. Cada espécie possui necessidades específicas de água, luz, adubação e poda. Como atualmente faço todo o acompanhamento apenas pela memória, muitas vezes acabo esquecendo de realizar alguns cuidados importantes, regando algumas plantas em excesso, deixando outras sem água por muito tempo ou perdendo o momento ideal para adubar e podar.
+
+Gostaria de um sistema que centralizasse todas essas informações e facilitasse o gerenciamento da minha horta e das minhas plantas.
+
+O sistema deve permitir cadastrar cada planta individualmente, informando dados como nome da espécie, apelido da planta, data de plantio, local onde está localizada, tipo de ambiente (interno ou externo), necessidade de luz (sol pleno, meia sombra ou sombra), frequência de rega, frequência de adubação, frequência de poda e observações importantes.
+
+Também preciso de um botão "Reguei Hoje!", que registre automaticamente a data e o horário da última rega, atualizando o histórico de cuidados da planta. Da mesma forma, gostaria de ter botões como "Adubei Hoje!", "Podei Hoje!" e "Colhi Hoje!", permitindo registrar rapidamente cada tipo de cuidado realizado.
+
+O sistema deve possuir um painel inicial com alertas inteligentes, destacando em vermelho todas as plantas que precisam de rega, em amarelo aquelas cuja adubação está próxima e em azul as que necessitam de poda. Esses alertas devem ser calculados automaticamente com base na frequência cadastrada e na data do último cuidado realizado.
+
+Também gostaria que o sistema permitisse registrar o crescimento de cada planta, armazenando informações como altura aproximada, quantidade de frutos produzidos, quantidade de flores, além de observações sobre pragas, doenças ou qualquer alteração percebida.
+
+Seria interessante anexar fotografias periodicamente para acompanhar visualmente o desenvolvimento de cada planta ao longo dos meses, criando uma linha do tempo da evolução da horta.
+
+Além disso, o sistema deve gerar um histórico completo de todas as atividades realizadas, permitindo consultar quando uma planta foi regada, adubada, podada ou colhida pela última vez.
+
+Gostaria também que o sistema apresentasse um painel com estatísticas, mostrando:
+
+Quantidade total de plantas cadastradas;
+Quantidade de plantas que precisam de rega hoje;
+Quantidade de plantas saudáveis;
+Quantidade de colheitas realizadas;
+Planta mais produtiva;
+Planta que exige mais cuidados;
+Número de cuidados realizados no mês;
+Média de dias entre as regas.
+
+Outro recurso interessante seria um calendário mensal, onde fosse possível visualizar todos os cuidados programados e os cuidados já realizados.
+
+Também seria útil permitir cadastrar lembretes personalizados, como troca de vaso, aplicação de defensivos naturais, transplante de mudas e controle de pragas.
+
+Para facilitar o acompanhamento, gostaria que cada planta tivesse uma página própria contendo todas as suas informações, fotos, histórico de cuidados, calendário de atividades e gráficos de evolução.
+
+Por fim, o sistema deve manter um histórico de todas as plantas cadastradas, inclusive aquelas que já foram removidas da horta, permitindo consultar informações antigas sempre que necessário.
+
+Funcionalidades extras que deixariam o projeto muito interessante
+🌱 Cadastro por categorias (Frutas, Hortaliças, Temperos, Flores, Árvores, Suculentas).
+📍 Localização da planta (Jardim, Quintal, Varanda, Estufa, Horta Vertical).
+📸 Galeria de fotos da planta.
+📈 Gráfico de crescimento.
+🍓 Registro de produção (kg ou quantidade de frutos).
+💰 Controle de gastos (mudas, terra, adubo, fertilizantes, vasos).
+💵 Relatório de custo por planta.
+🌦️ Integração com previsão do tempo para sugerir adiar a rega em caso de chuva (funcionalidade futura).
+🔔 Sistema de notificações.
+🐛 Registro de pragas e tratamentos realizados.
+🌿 Cadastro de mudas produzidas.
+🧾 Exportação dos relatórios em PDF.
+📊 Dashboard com gráficos.
+🌡️ Registro de temperatura e umidade (manual).
+👤 Cadastro de usuários para que mais de uma pessoa cuide da horta.
+⭐ Favoritar plantas.
+🔍 Busca por espécie.
+📝 Diário de observações diárias.
+🌼 Controle de floração.
+🍅 Controle de colheitas por data.
+📦 Controle de estoque de adubo e fertilizantes.
+🏆 Ranking das plantas mais produtivas. 
+
+nome da empresa Verde+
+ paleta de cores
+
+cores bases
+marrom claro(apenas alguns detalhes
+verde folha
+branco
