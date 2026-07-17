@@ -15,7 +15,51 @@
 
 <body>
 
-  <div class="topbar">
+  <div class="auth-screen" id="auth-screen">
+    <div class="auth-card">
+      <div class="auth-brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none">
+          <path d="M20 36C20 36 8 29 8 17C8 10 13 5 20 5C27 5 32 10 32 17C32 29 20 36 20 36Z" fill="#E4ECE0" />
+          <path d="M20 32C20 32 11 26.5 11 17.5C11 12.5 14.8 8.5 20 8.5" stroke="#3F6B4A" stroke-width="2"
+            stroke-linecap="round" />
+          <path d="M20 8.5C25.2 8.5 29 12.5 29 17.5C29 26.5 20 32 20 32" stroke="#3F6B4A" stroke-width="2"
+            stroke-linecap="round" />
+          <circle cx="20" cy="17" r="2.6" fill="#C9A876" />
+        </svg>
+        <div class="brand-name">Verde<span class="plus">+</span></div>
+      </div>
+      <p class="auth-tagline">Cada horta é pessoal. Entre ou crie sua conta.</p>
+
+      <div class="auth-tabs">
+        <button type="button" class="auth-tab active" id="tab-login" onclick="switchAuthMode('login')">Entrar</button>
+        <button type="button" class="auth-tab" id="tab-signup" onclick="switchAuthMode('signup')">Criar conta</button>
+      </div>
+
+      <form id="auth-form" onsubmit="return handleAuthSubmit(event)">
+        <div class="field hidden" id="field-name">
+          <label>Nome</label>
+          <input type="text" id="auth-name" autocomplete="name" placeholder="Seu nome">
+        </div>
+        <div class="field hidden" id="field-email">
+          <label>Email</label>
+          <input type="email" id="auth-email" autocomplete="email" placeholder="voce@email.com">
+        </div>
+        <div class="field" id="field-identifier">
+          <label>Email ou nome</label>
+          <input type="text" id="auth-identifier" autocomplete="username" placeholder="voce@email.com ou seu nome">
+        </div>
+        <div class="field">
+          <label>Senha</label>
+          <input type="password" id="auth-password" autocomplete="current-password" placeholder="••••••••" required>
+        </div>
+        <div class="auth-error" id="auth-error"></div>
+        <button type="submit" class="btn btn-primary auth-submit" id="auth-submit-btn">Entrar</button>
+      </form>
+      <p class="auth-note">Senha protegida com hash + salt. Os dados ficam salvos neste navegador/dispositivo — não é um sistema de autenticação de nível empresarial.</p>
+    </div>
+  </div>
+
+  <div class="topbar" id="topbar">
     <div class="topbar-inner">
       <div class="brand">
         <svg class="brand-mark" viewBox="0 0 40 40" fill="none">
@@ -29,7 +73,10 @@
         <div class="brand-name">Verde<span class="plus">+</span></div>
       </div>
       <div class="nav" id="nav"></div>
-      <button class="new-plant-btn" onclick="openPlantForm()">+ Nova planta</button>
+      <div class="topbar-actions">
+        <button class="new-plant-btn" onclick="openPlantForm()">+ Nova planta</button>
+        <button class="account-btn" id="account-btn" onclick="toggleAccountMenu()" title="Conta"></button>
+      </div>
     </div>
   </div>
 
